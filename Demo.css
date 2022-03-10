@@ -4,6 +4,12 @@
 }
 
 
+/* Remove Time Zone Icon */
+.bmc-tzs .tz-toggle-wrapper .timezone-icon {
+    display: none;
+}
+
+
 /* Move Social links to the left */
 .td-social-links {
     padding-right: 20px;
