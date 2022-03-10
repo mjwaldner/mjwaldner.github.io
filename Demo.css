@@ -4,11 +4,6 @@
 }
 
 
-#expo2-venues-header {
-    background: rgb(189 40 40);
-}
-
-
 /* Move Social links to the left */
 .td-social-links {
     padding-right: 20px;
@@ -17,8 +12,8 @@
 
 /* Update Size of the Chat Icon*/
 .scale-mode .collapsed-menu-mychats-trigger {
-    width: 45px;
-    height: 45px;
+    width: 10px;
+    height: 10px;
 }
 
 
