@@ -1,0 +1,126 @@
+/* Update the Sign In Font Size - Matt*/
+.expo2-dock-root-item-label {
+    font-size: 20pt;
+}
+
+
+/* Move Social links to the left */
+.td-social-links {
+    padding-right: 20px;
+}
+
+
+/* Update Size of the Chat Icon*/
+.scale-mode .collapsed-menu-mychats-trigger {
+    width: 45px;
+    height: 45px;
+}
+
+
+/*Add rounded corners to the drop down menu-Matt*/
+ul.dropdown-menu {
+border-radius: 10px;
+}
+.scale-mode button.btn.primary {
+    background-color: #2b5cb5;
+}
+
+
+/* Round cornders for profile pop-up - Matt */
+.my-profile-panel {
+    border-radius: 20px;
+}
+
+
+/* Hide the forum drop down in Help Desk - Matt */
+#sn-expo-widget-223228 .sn-forum-content-header {
+    display: none;
+}
+   
+
+/*Fix Panel Layout in Tablet*/
+.tablet div#expo-location-list-wrapper .sn-expo-widget {
+    position: unset;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: -webkit-center;
+}
+.mobile div#expo-location-list-wrapper .sn-expo-widget {
+    position: unset;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: -webkit-center;
+}
+
+/*Center HTML Panels in Mobile*/
+.mobile .sn-expo-widget-htmlpanel {
+    position: absolute;
+    display: block;
+    text-align: -webkit-center;
+}
+.tablet .sn-expo-widget-htmlpanel {
+    position: absolute;
+    display: block;
+    text-align: -webkit-center;
+}
+
+
+/* This is for the Demo Booth Left ISI */
+.desktop #sn-expo-widget-225829, .desktop #sn-expo-widget-228928  .isi_left {
+  width: 290px;
+  height: 200px;
+  border: none;
+  background-color: white;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+
+/* CHANGE WIDGET NUMBER TO MATCH */
+.mobile #sn-expo-widget-225829  .isi_left {
+  height: 200px;
+  border: none;
+  background-color: white;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+
+/*Change the rose color <> navigation buttons in expo*/
+.exhibit-logo-wrapper {
+    --scale-high-light-color: #0044cc;
+}
+/*Remove the rose color underline in expo*/
+.expo-interaction-panel-filter-wrapper li.active::after {
+    display: none;
+}
+
+
+root {
+    --scale-high-light-color: #2b5cb5;
+    --ps_panel_title_color: #3e0d72;
+    --ps_panel_title_fontsize: 24pt;
+    --ps_panel_title_justify: center;
+    --ps_panel_title_fontweight: bold;
+    --ps_panel_title_fontstyle: normal;
+    --ps_panel_title_padding: 20px 10px 20px 10px;
+    --ps_location_title_color: #3e0d72;
+    --ps_location_title_fontsize: 20pt;
+    --ps_location_title_justify: left;
+    --ps_location_title_fontweight: bold;
+    --ps_location_title_fontstyle: normal;
+    --ps_location_title_padding: 5px 5px 5px 5px;
+    --ps_popup_title_color: #3d474d;
+    --ps_popup_title_fontsize: 15pt;
+    --ps_popup_title_fontweight: bold;
+    --ps_popup_title_fontstyle: normal;
+    --ps_popup_title_padding: 20px 20px 20px 20px;
+    --ps_panel_multipage_onboarding_highlight_color: #2b5cb5;
+    --ps_panel_multipage_onboarding_highlight_color_shadow: 0px 0px 8px #2b5cb5;
+    --ps_msgbtn_bg_color: #FFFFFF;
+    --ps_msgbtn_icon_color: #333;
+}
