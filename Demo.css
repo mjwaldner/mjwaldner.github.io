@@ -4,6 +4,12 @@
 }
 
 
+#page-wrapper {
+    color: rgb(209, 14, 14);
+
+}
+
+
 /* Move Social links to the left */
 .td-social-links {
     padding-right: 20px;
