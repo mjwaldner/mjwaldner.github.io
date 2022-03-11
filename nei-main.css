@@ -183,6 +183,9 @@ border-radius: 10px;
 span.btn.import_profile_from_3rd.social-signin-btn.facebook {
     display: none;
 }
+.profile-custom-state-wrapper {
+    display: none;
+}
 span.or-text {
     display: none;
 }
