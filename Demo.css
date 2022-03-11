@@ -4,10 +4,10 @@
 }
 
 
-/* Remove Time Zone Icon
+/* Remove Time Zone Icon*/
 .bmc-tzs .tz-toggle-wrapper .timezone-icon {
     display: none;
-}*/
+}
 
 
 /* Move Social links to the left */
