@@ -1,0 +1,239 @@
+.sn-expo-widget-htmlpanel {
+    text-align: -webkit-center;
+}
+
+
+/* Fix Agenda Item Preview Formating*/
+h2 {
+    margin-bottom: 0em;
+}
+
+
+/* add hover glow to uler circle icon*/
+.user-logo-circle-cover:hover {
+    box-shadow: 0 0 0.5em 0 #fff;
+    transform: scale(1.05);
+}
+
+
+/* change session live icon */
+.calendar-panel-sc .session-onair .sc-live {
+    background-image: url("https://ezstack-source-1es5yaoqgtfar.s3.amazonaws.com/venue_1272152/3wzGigcoT96ZJKQdBYlr_sc-live.svg");
+}
+/* change session bookmark icon */
+.sc-bookmark {
+    background-image: url("https://ezstack-source-1es5yaoqgtfar.s3.amazonaws.com/venue_1272152/tIODpJhxRZGxpbUpZFQ7_sc-bookmark.svg");
+}
+
+
+/* Update the Sign-In Font Size */
+.expo2-dock-root-item-label {
+    font-size: 20pt;
+}
+
+
+/* Messages Button*/
+.scale-mode .collapsed-menu-mychats-trigger {
+    width: 40px;
+    height: 40px;
+}
+.msg-sign.fa.fa-comment{
+   display: none;
+}
+/* Remove Messages Icon in menu
+.expo2-venue-header-bmcmsg {
+    display: none;
+}*/
+/*Move Chat Menu to the right - Matt
+ul.expo2-venue-top-list > li:last-child {
+    float: right;
+}*/
+/*Update Messages Menu - Matt*/
+.add-contact.btn.btn-bmc.primary {
+    background: #2b5cb5;
+}
+#sn-expo-private-chat-panel .channels-manage {
+    float: right;
+}
+.contacts-header.clearfix .expo-panel-title {
+    text-transform: capitalize;
+}
+/* change message call icon */
+.sc-videocall {
+    background-image: url("https://ezstack-source-1es5yaoqgtfar.s3.amazonaws.com/venue_1272152/ZfrEm8FRbqqGmHlJQl0w_sc-videocall.svg");
+}
+/* change messages cog wheel call icon */
+.sc-cog {
+    background-image: url("https://ezstack-source-1es5yaoqgtfar.s3.amazonaws.com/venue_1272152/96EIifMVTBKldZWWmTvA_sc-cog.svg");
+}
+/* change messages info icon */
+.sc-info {
+    background-image: url("https://ezstack-source-1es5yaoqgtfar.s3.amazonaws.com/venue_1272152/y5ShixupQtGdftlTbfzr_sc-info.svg");
+}
+/* change messages send icon */
+.sc-send {
+    background-image: url("https://ezstack-source-1es5yaoqgtfar.s3.amazonaws.com/venue_1272152/fGnqnugRHCWUYMEoNBbQ_sc-send.svg");
+}
+
+
+/* Remove Dot from Onboarding Pop-up */
+i.fa.fa-circle.act.act-page.active {
+    display: none;
+}
+#expo2-profile-welcome-panel.multipage .welcome-content ul.nav li.nav-suffix, #expo2-profile-welcome-panel.multipage .welcome-content ul.nav li.nav-prefix {
+    width: unset;
+    justify-content: center;
+    display: flex;
+}
+
+
+/* Update the Slides&Handouts Font Size */
+#sn-expo-widget-654505 {
+    font-size: 12pt;
+}
+#sn-expo-widget-654505 span.open-folder {
+    font-size: 14pt;
+}
+
+
+/* Move Social links to the left */
+.td-social-links {
+    padding-right: 20px;
+}
+
+
+/*Add rounded corners to the drop down menu-Matt*/
+ul.dropdown-menu {
+border-radius: 10px;
+}
+.scale-mode button.btn.primary {
+    background-color: #2b5cb5;
+}
+
+
+/*Update Messages Menu - Matt*/
+.add-contact.btn.btn-bmc.primary {
+    background: #2b5cb5;
+}
+#sn-expo-private-chat-panel .channels-manage {
+    float: right;
+}
+.contacts-header.clearfix .expo-panel-title {
+    text-transform: capitalize;
+}
+
+
+/*Remove the icon for the mini agenda - Matt*/
+.fa.fa-calendar.location-conference-session-room {
+    display: none;
+}
+
+
+/*Update the layout of the my agenda - Matt*/
+#sn-calendar-myagenda-1272152-panel .sn-expo-panel-content-header .session-filter-wrapper.options-1 {
+    width: 100%;
+}
+#sn-calendar-myagenda-1272152-panel .bmc-tzs.session-tzs {
+    float: left;
+}
+#sn-calendar-myagenda-1272152-panel .expo-panel-title {
+    padding: 10px;
+    margin-right: 0px;
+}
+#sn-calendar-myagenda-1272152-panel .session-content {
+    display: none;
+}
+#sn-calendar-myagenda-1272152-panel .timezone-icon {
+    display: none;
+}
+#sn-calendar-myagenda-1272152-panel .sc-icon.sc-calendar {
+    display: none;
+}
+#sn-calendar-myagenda-1272152-panel .sc-icon.sc-horn {
+    display: none;
+}
+
+
+:root {
+    --ps_panel_title_color: #3e0d72;
+    --ps_panel_title_fontsize: 24pt;
+    --ps_panel_title_justify: left;
+    --ps_panel_title_fontweight: bold;
+    --ps_panel_title_fontstyle: normal;
+    --ps_panel_title_padding: 20px 10px 20px 10px;
+    --ps_location_title_color: #3e0d72;
+    --ps_location_title_fontsize: 20pt;
+    --ps_location_title_justify: center;
+    --ps_location_title_fontweight: bold;
+    --ps_location_title_fontstyle: normal;
+    --ps_location_title_padding: 5px 5px 5px 5px;
+    --ps_popup_title_color: #3d474d;
+    --ps_popup_title_fontsize: 15pt;
+    --ps_popup_title_justify: center;
+    --ps_popup_title_fontweight: bold;
+    --ps_popup_title_fontstyle: normal;
+    --ps_popup_title_padding: 20px 20px 20px 20px;
+    --ps_panel_multipage_onboarding_highlight_color: #2b5cb5;
+    --ps_panel_multipage_onboarding_highlight_color_shadow: 0px 0px 8px #2b5cb5;
+    --scale-high-light-color: #2b5cb5;
+}
+
+
+/* Remove some of the edit profile options */
+span.btn.import_profile_from_3rd.social-signin-btn.facebook {
+    display: none;
+}
+span.or-text {
+    display: none;
+}
+.edit-profile-functional-focus-item{
+    display: none;
+}
+.edit-profile-industry-item{
+    display: none;
+}
+.edit-profile-interests-item{
+    display: none;
+}
+.edit-profile-professionalbackground-item{
+    display: none;
+}
+.edit-profile-academicbackground-item{
+    display: none;
+}
+.edit-profile-credentials-item{
+    display: none;
+}
+.form-item.edit-profile-mobile-item {
+    display: none;
+}
+.form-item.edit-profile-twitter-item {
+    display: none;
+}
+.form-item.edit-profile-skype-item {
+    display: none;
+}
+.form-item.edit-profile-3rdmeeting-item {
+    display: none;
+}
+.form-item.edit-profile-linkedin-item {
+    display: none;
+}
+
+
+/* NEI Booth Inquire Pop-up width - Matt */
+#exhibit-content-submit-an-inquiry-trigger-panel {
+    width: 600px;
+}
+#exhibit-content-submit-an-inquiry-trigger-panel .expo-panel-title-wrapper {
+    width: 100%;
+}
+
+
+/* Fix Mobile Formating */
+.mobile #onboarding-video {
+     width: 350px;
+}
+.mobile #tidio-chat {
+    display: none;
+}

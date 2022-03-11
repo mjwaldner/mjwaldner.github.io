@@ -1,0 +1,34 @@
+/* mouse over lobby links*/
+
+.videotutorials:hover {
+    transition: all 0.2s ease;
+    color: #f2b077;
+    transform: scale(1.1); 
+}
+
+.cmesessions:hover {
+    transition: all 0.2s ease;
+    color: #f2b077;
+    transform: scale(1.1); 
+}
+
+.industry:hover {
+    transition: all 0.2s ease;
+    color: #f2b077;
+    transform: scale(1.1); 
+}
+
+.exhibits:hover {
+    transition: all 0.2s ease;
+    color: #f2b077;
+    transform: scale(1.1); 
+}
+
+#cambridgelobby:hover {
+    transition: all 0.2s ease;
+    transform: scale(1.02); 
+}
+
+.mobile #lobby-video {
+    width: 350px;
+}
